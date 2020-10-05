@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,700&display=swap");
+:root {
+  --color-primary: #BA6C17;
+  --color-background: #F5F5F5;
+  --color-text: #7A7A7A;
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+}
+
+button {
+  margin-top: 30px;
+  background-color: var(--color-primary);
+  color: var(--color-background);
+  border-radius: 30px;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 12px 24px;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: rgba(186, 108, 23, 0.93);
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: 0.3s;
+}
