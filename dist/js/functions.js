@@ -30,7 +30,7 @@ function cargarPreguntas() {
     for (let i = 1; i <= preguntas.length; i++) {
 
         let optionsHtml = '';
-        var pregunta = preguntas[cont];
+        const pregunta = preguntas[cont];
         for (let = 0; j < pregunta.options.length; j++) {
             const option = pregunta.options[j];
             optionsHtml += `<input type="radio" name="pregunta${i}" value="${option.val}" id="pregunta${i}-${j}" required data-tipo="${pregunta.type}"><label for="pregunta${i}-${j}">${option.desc}</label>`;
